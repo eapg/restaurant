@@ -4,7 +4,7 @@ This is a project to manage the complete operation of a restaurant.
 
 ## project structure:
 
- ## - product structure add
+ ## - product structure:
 
    This structure is made up of the basic of a product like the product name, the product id and
    the product description.
@@ -17,6 +17,12 @@ This is a project to manage the complete operation of a restaurant.
 
    This structure relates a product with an inventory also its contain the product quantity
 
+## - Menu structure:
+
+   this structure has the menu of the restaurant. its show the product that the restaurant sell,
+   also its show the product description and its price.
+
 ## UML Class Diagram
 
-![UML](https://github.com/eapg/restaurant/blob/Master/UML_Diagram.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/menu/UML_Diagram.png?raw=true)
+
