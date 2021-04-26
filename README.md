@@ -1,10 +1,12 @@
 
 # Restaurant EA Italian Food
 
-The architecture of this software will manage products to be sold to clients like pasta, lasagna.
+The architecture of this software will manage products to be sold to clients like pasta, lasagna also it's 
+going to have an inventory where we can track the stock.
 
-added first UML diagram:
+added UML diagram for Product and Inventory
 
-## UML diagram for product class
+## UML diagram for Inventory
 
-![UML](https://github.com/eapg/restaurant/blob/feature/product_class/UML_product.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/inventory_class/UML_Inventory.png?raw=true)
+
