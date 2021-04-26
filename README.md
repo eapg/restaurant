@@ -19,10 +19,27 @@ This is a project to manage the complete operation of a restaurant.
 
 ## - Menu structure:
 
-   this structure has the menu of the restaurant. its show the product that the restaurant sell,
+   This structure has the menu of the restaurant. its show the product that the restaurant sell,
    also its show the product description and its price.
+
+## - order structure:
+
+   This structure manages the client orders, its will have products, price, taxes, status and
+   other orders details.
+
+## - order amount structure:
+
+   This structure calculates the total amount of the product that the client order.
+
+## - order detail structure:
+
+   This structure have all the order details
+
+## - order status structure:
+
+   This structure has a list of possible status for the order
 
 ## UML Class Diagram
 
-![UML](https://github.com/eapg/restaurant/blob/feature/menu/UML_Diagram.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/order/UML_Diagram.png?raw=true)
 
