@@ -7,5 +7,6 @@ class Product:
         self.name = None
         self.description = None
         self.id = None
+        self.price = None
         self.inventory_product = None
 
