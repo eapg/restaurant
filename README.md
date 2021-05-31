@@ -39,7 +39,15 @@ This is a project to manage the complete operation of a restaurant.
 
    This structure has a list of possible status for the order
 
+##  - Generic Repository structure:
+
+   This structure manages the abstraction of the repositories, it works like an interface
+
+## - Product Repository
+
+   This structure manages the implementation of the product repository
+
 ## UML Class Diagram
 
-![UML](https://github.com/eapg/restaurant/blob/feature/order/UML_Diagram.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/product_repository/UML_Diagram.png?raw=true)
 
