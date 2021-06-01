@@ -47,7 +47,11 @@ This is a project to manage the complete operation of a restaurant.
 
    This structure manages the implementation of the product repository
 
+## Inventory Repository
+
+   This structure manages the implementation of the inventory repository
+
 ## UML Class Diagram
 
-![UML](https://github.com/eapg/restaurant/blob/feature/product_repository/UML_Diagram.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/inventory_repository/UML_Diagram.png?raw=true)
 
