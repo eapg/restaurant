@@ -59,7 +59,11 @@ This is a project to manage the complete operation of a restaurant.
 
    This structure manages the implementation of the menu repository
 
+## Order Repository
+
+   This structure manages the implementation of the order repository
+
 ## UML Class Diagram
 
-![UML](https://github.com/eapg/restaurant/blob/feature/menu_repository/UML_Diagram.png?raw=true)
+![UML](https://github.com/eapg/restaurant/blob/feature/order_repository/UML_Diagram.png?raw=true)
 
