@@ -25,3 +25,6 @@ class GeneralRepository(ABC):
     def update_by_id(self, obj_id, new_obj):
         pass
 
+    @abstractmethod
+    def update_by_attribute(self, product_id, attribute, new_data):
+        pass

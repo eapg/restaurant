@@ -27,6 +27,9 @@ class ProductRepository(GeneralRepository):
     def update_by_id(self, product_id, new_product):
         self.products[product_id] = new_product
 
+    def update_by_attribute(self, product_id, attribute, new_data):
+        setattr(self.products[product_id], attribute, new_data)
+
 
 
 
