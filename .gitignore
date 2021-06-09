@@ -131,3 +131,4 @@ dmypy.json
 /venv
 src/main/python/exceptions/
 src/main/python/exception/
+src/main/python/new_update_method/

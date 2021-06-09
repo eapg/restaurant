@@ -25,8 +25,6 @@ class ProductRepository(GeneralRepository):
         return self.products.pop(product_id)
 
     def update_by_id(self, product_id, new_product):
+        new_product.id = product_id
         self.products[product_id] = new_product
-
-
-
 
