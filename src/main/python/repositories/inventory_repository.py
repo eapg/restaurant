@@ -25,4 +25,5 @@ class InventoryRepository(GeneralRepository):
         return self.inventories.pop(inventory_id)
 
     def update_by_id(self, inventory_id, new_inventory):
+        new_inventory.id = inventory_id
         self.inventories[inventory_id] = new_inventory
