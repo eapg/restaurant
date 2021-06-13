@@ -5,7 +5,7 @@ class InventoryProduct:
     def __init__(self):
 
         self.id = None
-        self.product_id = None
-        self.inventory_id = None
+        self.product = None
+        self.inventory = None
         self.product_quantity = 0
 
