@@ -7,10 +7,10 @@ class InventoryProductController:
         self.inventory_product_repository = inventory_product_repository
 
     def get_inventory_product(self, inventory_product_id):
-        self.inventory_product_repository.get_by_id(inventory_product_id)
+        return self.inventory_product_repository.get_by_id(inventory_product_id)
 
     def get_inventories_product(self):
-        self.inventory_product_repository.get_all()
+        return self.inventory_product_repository.get_all()
 
     def insert_inventory_product(self, inventory_product):
         self.inventory_product_repository.add(inventory_product)
