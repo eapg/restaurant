@@ -25,4 +25,5 @@ class MenuRepository(GeneralRepository):
         return self.menus.pop(menu_id)
 
     def update_by_id(self, menu_id, new_menu):
+        new_menu.id = menu_id
         self.menus[menu_id] = new_menu
