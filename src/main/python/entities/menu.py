@@ -5,5 +5,5 @@ class Menu:
     def __init__(self):
 
         self.id = None
-        self.menu_product_list = []
+        self.menu_product_list = {}
         self.category = None
