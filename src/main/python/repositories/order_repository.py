@@ -25,4 +25,5 @@ class OrderRepository(GeneralRepository):
         return self.orders.pop(order_id)
 
     def update_by_id(self, order_id, new_order):
+        new_order.id = order_id
         self.orders[order_id] = new_order
