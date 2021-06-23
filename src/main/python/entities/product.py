@@ -9,4 +9,5 @@ class Product:
         self.id = None
         self.price = None
         self.inventory_product = None
+        self.product_complexity = None
 
