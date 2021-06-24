@@ -24,6 +24,7 @@ class Ioc:
         self.__instance_ioc['order_amount_repository'] = order_amount_repository.OrderAmountRepository()
         self.__instance_ioc['order_detail_repository'] = order_detail_repository.OrderDetailRepository()
         self.__instance_ioc['order_status_repository'] = order_status_repository.OrderStatusRepository()
+        self.__instance_ioc['chef_repository'] = chef_repository.ChefRepository()
 
     def __init_controllers(self):
         self.__instance_ioc['product_controller'] = product_controller.ProductController(
@@ -42,6 +43,8 @@ class Ioc:
             self.__instance_ioc['order_detail_repository'])
         self.__instance_ioc['order_status_controller'] = order_status_controller.OrderStatusController(
             self.__instance_ioc['order_status_repository'])
+        self.__instance_ioc['chef_controller'] = chef_controller.ChefController(
+            self.__instance_ioc['chef_repository'])
 
     def put_instance(self, instance, instance_id):
         self.__instance_ioc[instance_id] = instance
