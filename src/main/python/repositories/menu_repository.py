@@ -7,12 +7,9 @@ class MenuRepository(GeneralRepository):
 
     def __init__(self):
         self.menus = {}
-        self.next_id = 1
 
     def add(self, menu):
-        menu.id = self.next_id
-        self.menus[self.next_id] = menu
-        self.next_id += 1
+        self.menus[menu.id] = menu
         return menu
 
     def get_by_id(self, menu_id):

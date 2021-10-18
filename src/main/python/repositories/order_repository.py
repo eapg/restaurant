@@ -7,12 +7,9 @@ class OrderRepository(GeneralRepository):
 
     def __init__(self):
         self.orders = {}
-        self.next_id = 1
 
     def add(self, order):
-        order.id = self.next_id
-        self.orders[self.next_id] = order
-        self.next_id += 1
+        self.orders[order.id] = order
         return order
 
     def get_by_id(self, order_id):

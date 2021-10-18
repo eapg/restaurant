@@ -7,12 +7,9 @@ class ChefRepository(GeneralRepository):
 
     def __init__(self):
         self.chefs = {}
-        self.next_id = 1
 
     def add(self, chef):
-        chef.id = self.next_id
-        self.chefs[self.next_id] = chef
-        self.next_id += 1
+        self.chefs[chef.id] = chef
         return chef
 
     def get_by_id(self, chef_id):

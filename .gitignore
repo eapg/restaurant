@@ -131,4 +131,5 @@ dmypy.json
 /venv
 src/main/python/exceptions/
 src/main/python/exception/
-src/main/python/new_update_method/
+src/main/python/test_code/
+src/main/python/core/simulator/order_simulator.py

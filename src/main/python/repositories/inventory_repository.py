@@ -7,12 +7,9 @@ class InventoryRepository(GeneralRepository):
 
     def __init__(self):
         self.inventories = {}
-        self.next_id = 1
 
     def add(self, inventory):
-        inventory.id = self.next_id
-        self.inventories[self.next_id] = inventory
-        self.next_id += 1
+        self.inventories[inventory.id] = inventory
         return inventory
 
     def get_by_id(self, inventory_id):
