@@ -1,1 +1,1 @@
-__all__ = ['ioc', 'singleton_decorator']
+__all__ = ['ioc', 'singleton_decorator', 'order_manager']

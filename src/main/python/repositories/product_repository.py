@@ -7,12 +7,9 @@ class ProductRepository(GeneralRepository):
 
     def __init__(self):
         self.products = {}
-        self.next_id = 1
 
     def add(self, product):
-        product.id = self.next_id
-        self.products[self.next_id] = product
-        self.next_id += 1
+        self.products[product.id] = product
         return product
 
     def get_by_id(self, product_id):

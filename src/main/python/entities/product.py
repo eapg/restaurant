@@ -8,6 +8,7 @@ class Product:
         self.description = None
         self.id = None
         self.price = None
+        self.ingredients = []
         self.inventory_product = None
         self.product_complexity = None
 

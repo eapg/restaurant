@@ -9,9 +9,11 @@ ioc_instance = ioc.Ioc()
 order_controller = ioc_instance.get_instance('order_controller')
 
 order_1 = order.Order()
+order_1.id = 1
 order_detail_1 = order_detail.OrderDetails()
 
 order_2 = order.Order()
+order_2.id = 2
 order_detail_2 = order_detail.OrderDetails()
 
 product_1 = product.Product()
@@ -119,7 +121,7 @@ print(order_a.order_details.order_product_list[2].__dict__)
 print('Total Amount:')
 print(order_a.order_details.order_amount)
 
-print('----------------------------Showing order at id:1 after client changed ---------------------------------------')
+print('----------------------------Showing order at id:1 after client changed ----------------------------------------')
 
 order_controller.update_order_by_id(1, order_2)
 order_a = order_controller.get_order(1)
